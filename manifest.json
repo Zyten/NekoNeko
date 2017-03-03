@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "NekoNeko",
+  "version": "0.1.0",
+  "description": "Replaces all images in any site to cats!",
+  "icons": { "64": "active.png"},
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["<all_urls>"]
+  }],
+ 
+ "background": { 
+    "scripts": ["background.js"] },
+    "browser_action": {
+      "name": "Click to change the icon's color"
+    },
+	
+	"permissions": [
+       "tabs"
+   ]
+}
