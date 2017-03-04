@@ -1,5 +1,5 @@
 # NekoNeko
-:cat: First Chrome extension build loosely based on examples from:
+:cat: First Chrome extension built loosely based on examples from:
 https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css
 ***
 ### Synopsis
